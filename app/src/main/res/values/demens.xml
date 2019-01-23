@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--常用的单位-->
+
+    <!--文字-->
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_title">17sp</dimen>
+    <dimen name="text_size_strong">28sp</dimen>
+
+    <!--页边距-->
+    <dimen name="page_padding">15dp</dimen>
+</resources>

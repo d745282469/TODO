@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <!--数据库名称-->
+    <dbname value="myDataBase"/>
+    <!--数据库版本，修改版本后执行任意一次数据库操作即可更新数据库-->
+    <version value="4"/>
+
+    <!--表-->
+    <list>
+        <mapping class="com.todo.dong.todo.DataBase.ToDoTable"/>
+        <mapping class="com.todo.dong.todo.DataBase.LocalToDoTable"/>
+    </list>
+</litepal>

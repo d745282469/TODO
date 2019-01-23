@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/general_dialog_body"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+    <!--标题文本-->
+    <TextView
+        android:id="@+id/general_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="这里是标题"
+        android:textColor="@color/text_color_normal"
+        android:textSize="@dimen/text_size_title" />
+
+    <!--输入区域-->
+    <EditText
+        android:id="@+id/edit_dialog_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/page_padding"
+        android:layout_marginRight="@dimen/page_padding"
+        android:textColor="@color/text_color_content"
+        android:textSize="@dimen/text_size_normal"
+        android:background="@null"/>
+
+    <!--分割线 横向-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_color_gray" />
+
+    <!--底部的两个按钮用TextView来代替了-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--左边按钮-->
+        <TextView
+            android:id="@+id/general_dialog_left_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/text_color_normal"
+            android:textSize="@dimen/text_size_title" />
+
+        <!--分割线 竖向-->
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/line_color_gray" />
+
+        <!--右边按钮-->
+        <TextView
+            android:id="@+id/general_dialog_right_btn"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/text_size_title" />
+
+    </LinearLayout>
+
+</LinearLayout>
