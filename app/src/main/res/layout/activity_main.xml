@@ -54,6 +54,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/mainAct_dayUndo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="10"
@@ -82,6 +83,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/mainAct_monthUndo"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -99,6 +101,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/mainAct_monthDone"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -115,7 +118,6 @@
                     android:id="@+id/toolBar"
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
-                    android:contentInsetStart="0dp"
                     app:layout_collapseMode="pin">
 
                     <RelativeLayout
@@ -137,6 +139,7 @@
                             android:orientation="horizontal">
 
                             <TextView
+                                android:id="@+id/toolBar_title"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:singleLine="true"
@@ -195,11 +198,13 @@
     </android.support.design.widget.CoordinatorLayout>
 
     <android.support.design.widget.NavigationView
+        android:id="@+id/mainAct_navigation"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="left"
         app:headerLayout="@layout/slide_header"
-        app:menu="@menu/slide_menu">
+        app:menu="@menu/slide_menu"
+        app:itemBackground="?android:attr/selectableItemBackground">
 
     </android.support.design.widget.NavigationView>
 

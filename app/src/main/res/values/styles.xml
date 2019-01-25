@@ -39,4 +39,9 @@
         <!--背景变暗-->
         <item name="android:backgroundDimEnabled">false</item>
     </style>
+
+    <style name="PopAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_up</item>
+        <item name="android:windowExitAnimation">@anim/pop_down</item>
+    </style>
 </resources>

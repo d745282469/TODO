@@ -3,6 +3,7 @@
     <!--常用的单位-->
 
     <!--文字-->
+    <dimen name="text_size_small">12sp</dimen>
     <dimen name="text_size_normal">14sp</dimen>
     <dimen name="text_size_title">17sp</dimen>
     <dimen name="text_size_strong">28sp</dimen>

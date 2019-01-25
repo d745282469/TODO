@@ -6,10 +6,10 @@
     android:layout_height="wrap_content"
     android:background="?android:attr/selectableItemBackground"
     android:clickable="true"
-    android:id="@+id/todo_item_item"
     >
 
     <LinearLayout
+        android:id="@+id/todo_item_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -50,14 +50,34 @@
         </LinearLayout>
 
 
-        <ImageView
-            android:id="@+id/todo_status"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:src="@drawable/undo"
+        <LinearLayout
+            android:id="@+id/todo_info"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginRight="@dimen/page_padding"
-            android:clickable="true"/>
+            android:clickable="true"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="?android:attr/selectableItemBackground">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="@drawable/round_bg_all_info"
+                android:layout_marginBottom="3dp"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="@drawable/round_bg_all_info"
+                android:layout_marginBottom="3dp"/>
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="4dp"
+                android:background="@drawable/round_bg_all_info"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

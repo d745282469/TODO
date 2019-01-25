@@ -17,7 +17,7 @@
         android:id="@+id/slide_header_nickName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="NickName"
+        android:text="大东哥"
         android:textSize="@dimen/text_size_title"
         android:textColor="@color/text_color_title"
         android:layout_above="@id/slide_header_userName"/>
